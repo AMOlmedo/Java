@@ -24,6 +24,7 @@ public class integradorOp2 {
         }
         System.out.println("correcto!!");
         System.out.println("le acertaste en " + conta +" intenteos!");
+        teclado.close();
         
     }
     

@@ -14,19 +14,20 @@ public class integrador1 {
         int aleatorio = rand.nextInt(100);
         System.out.println(aleatorio);
         int cont = 0;
-        int num = Integer.parseInt(JOptionPane.showInputDialog("ingrese un numero del 1 al 100:"));
-
-        if (num > 0 && num < 101) {
-            while (aleatorio != num) {
+        int num = 0;
+        while ( num != aleatorio) {
+        if (num > 0 || num < 101) {
+            
+                num =Integer.parseInt(JOptionPane.showInputDialog("ingrese un numero del 1 al 100:"));
                 if (num > aleatorio) System.out.println("el numero es mayor");
-                else if(num<aleatorio) System.out.println("el numero es menor");
-                
-                cont = cont + 1;
-            }
-            System.out.println("ACIERTO DE UNA!!!!");
-        } else {
-            System.out.println("ingrese un numero valido del 0 al 100");
+                else if (num < aleatorio)  System.out.println("el numero es menor");
+                cont++; 
+        } else System.out.println("ingrese un numero valido del 0 al 100");
+        
         }
+            System.out.println("ACIERTO DE UNA!!!!");
+       
+        
     }
 }
     
