@@ -2,7 +2,6 @@
 //Generar un numero aleatorio. 
 //Ingresar numeros hasta coincidir con el aleatorio  y contar los intentos
 package Pildoras;
-
 import javax.swing.JOptionPane;
 import java.util.Random;
 
@@ -22,12 +21,9 @@ public class integrador1 {
                 if (num > aleatorio) System.out.println("el numero es mayor");
                 else if (num < aleatorio)  System.out.println("el numero es menor");
                 cont++; 
-        } else System.out.println("ingrese un numero valido del 0 al 100");
-        
+        } else System.out.println("ingrese un numero valido del 0 al 100");        
         }
-            System.out.println("ACIERTO DE UNA!!!!");
-       
-        
+            System.out.println("ACIERTO DE UNA!!!!");               
     }
 }
     
