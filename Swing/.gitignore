@@ -1,0 +1,19 @@
+# Ignorar binarios compilados
+*.class
+*.jar
+*.war
+
+# Ignorar carpetas de compilación
+/bin/
+/build/
+/out/
+
+# Ignorar configuraciones de IDE
+/.idea/
+/.vscode/
+/nbproject/private/
+
+# Ignorar archivos temporales
+*.log
+*.tmp
+
