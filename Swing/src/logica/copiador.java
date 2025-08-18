@@ -1,13 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package logica;
 
+package logica;
 /**
  *
  * @author Adrian
  */
-public class copiador {
-    
+import igu.Copy;
+
+public class Copiador {
+     
+    public static void main(String[] args) {
+        Copy ventana = new Copy(); /*Contructor: Crea la ventana */
+        ventana.setVisible(true);
+        ventana.setLocationRelativeTo(null); /*centra la ventana en pantalla */
+        
+    }
 }
