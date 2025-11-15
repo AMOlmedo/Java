@@ -15,6 +15,8 @@ public class Copy extends javax.swing.JFrame {
      */
     public Copy() {
         initComponents();
+        txtCopiado.setEditable(false);
+        
     }
 
     /**
@@ -47,6 +49,7 @@ public class Copy extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel1.setText("COPIADOR EN JAVA");
 
+        txtCopiado.setEditable(false);
         txtCopiado.setColumns(20);
         txtCopiado.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         txtCopiado.setRows(5);
@@ -75,6 +78,7 @@ public class Copy extends javax.swing.JFrame {
 
         jLabel3.setText("Mensaje copiado");
 
+        txtEncripatado.setEditable(false);
         txtEncripatado.setColumns(20);
         txtEncripatado.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         txtEncripatado.setRows(5);
